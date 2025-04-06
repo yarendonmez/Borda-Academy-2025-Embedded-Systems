@@ -1,0 +1,3 @@
+FILE *log = fopen("producer_log.txt", "a");
+fprintf(log, "Veri kaybı: %.2f\n", generated_value);
+fclose(log);
